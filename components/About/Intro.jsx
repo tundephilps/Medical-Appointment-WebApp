@@ -48,7 +48,7 @@ const Intro = () => {
       <div className="lg:flex-[33.33%] md:flex-[50%] flex-[100%] px-4 md:px-0">
         <div className="rounded-2xl overflow-hidden !leading-[0px] ">
           <Image
-            src="/images/profile.jpg"
+            src="/images/doctor.webp"
             width={400}
             height={800}
             alt="profile"
@@ -57,7 +57,7 @@ const Intro = () => {
           />
         </div>
         <div className="mt-6 text-center">
-          <h4 className="mb-0 text-xl">Dr. Aman Sharma</h4>
+          <h4 className="mb-0 text-xl">Dr. Kunle Davids</h4>
           <p className="md:opacity-90 my-1 opacity-90">Med Expert Founder</p>
           <div className="flex justify-center flex-wrap items-center my-4">
             {socialLink.map(({ icon, url }, index) => (

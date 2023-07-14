@@ -24,15 +24,15 @@ const Header = (props) => {
     },
     {
       name: "Services",
-      url: "/services",
+      url: "/Services",
     },
     {
       name: "FAQuestions",
-      url: "/faq",
+      url: "/Faq",
     },
     {
       name: "Contact Us",
-      url: "/contact",
+      url: "/Contact",
     },
   ];
   const mobileMoreItems = [
@@ -123,7 +123,7 @@ const Header = (props) => {
               )}
             </button>
 
-            <Link href="/appointment">
+            <Link href="/Appointment">
               <button
                 className={`hidden lg:inline-flex ml-auto capitalize items-center cursor-pointer group align-middle text-center transition-all select-none whitespace-nowrap py-2 px-6 text-sm leading-normal no-underline rounded-full bg-text-main dark:bg-text-main/5 dark:hover:bg-primary-main hover:bg-primary-main text-white border-2 border-text-main dark:border-text-main/10 outline-none font-bold ${
                   router.pathname == "/appointment" ? "!bg-primary-main" : ""
@@ -171,7 +171,7 @@ const Header = (props) => {
           <Link href="/appointment">
             <button
               className={`inline-flex capitalize items-center cursor-pointer group align-middle text-center transition-all select-none whitespace-nowrap py-2 px-6 text-sm leading-normal no-underline rounded-md bg-text-main hover:bg-primary-main text-white outline-none font-bold ${
-                router.pathname == "/appointment" ? "!bg-primary-main" : ""
+                router.pathname == "/Appointment" ? "!bg-primary-main" : ""
               }`}
               onClick={handleDrawerClose}
             >
