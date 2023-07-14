@@ -140,7 +140,7 @@ const DownLeftSide = () => {
               for="subject"
               className="block mb-3 px-1 md:text-sm text-base font-medium capitalize"
             >
-              Select a subject
+              Select a Doctor
             </label>
             <div
               ref={selectDropdownRef}
