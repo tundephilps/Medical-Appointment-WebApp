@@ -28,7 +28,7 @@ const Header = (props) => {
     },
     {
       name: "FAQuestions",
-      url: "/Faq",
+      url: "/FaQuestions",
     },
     {
       name: "Contact Us",
