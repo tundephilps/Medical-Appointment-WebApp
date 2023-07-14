@@ -4,7 +4,7 @@ import DownSide from "@/components/Services/DownSide";
 import UpSide from "@/components/Services/Upside";
 import React from "react";
 
-const Index = () => {
+const Services = () => {
   return (
     <div>
       <PageBanner
@@ -20,4 +20,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Services;
