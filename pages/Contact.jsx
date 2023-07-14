@@ -10,7 +10,7 @@ const Index = () => {
     <>
       <PageBanner
         title="Contact Us"
-        description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam aliquam maiores itaque modi eaque animi beatae ipsam inventore eum? Libero."
+        description="Lorem ipsum dolor sit, consectetur adipisicing elit. Quam aliquam maiores itaque modi eaque animi beatae ipsam inventore eum? Libero."
         path="contact us"
       />
       <Section>
