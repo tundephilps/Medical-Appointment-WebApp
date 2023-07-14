@@ -37,8 +37,8 @@ const Footer = () => {
       { text: "Email Us On name@company.com" },
     ],
     "Useful Links": [
-      { text: "Terms & Conditions", url: "/terms" },
-      { text: "Privacy Policy", url: "/policy" },
+      { text: "Terms & Conditions", url: "/TermsAndConditions" },
+      { text: "Privacy Policy", url: "/Policy" },
       { text: "FAQuestions", url: "/faq" },
       { text: "DMCA", url: "/" },
       { text: "License", url: "/" },
